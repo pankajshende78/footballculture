@@ -1,0 +1,98 @@
+body
+{
+    background-color:white;
+	}
+p {
+    
+    font-family: Comic Sans MS;
+    font-size: 20px;
+	background-color: black;
+}
+
+
+h4{
+  font-family: verdana;
+}
+
+.img{
+margin: 40px 40px;
+}
+p {
+    
+    font-family: Comic Sans MS;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+	font-family: Verdana;
+	font-style: Bold;
+	margin:0;
+    padding: 0;
+    overflow: hidden;
+	color : black;
+	background-color: black;
+	margin: 0;
+	 
+ 
+
+    
+}
+
+.active{
+    background-color : red;
+
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px 27px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: green}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+var slideIndex = 0;	
+carousel();
+
+
+
+
+
+
+
+
+
